@@ -3,12 +3,12 @@
 In [dplyr.R](https://github.com/puneeth019/playground/blob/master/dplyr.R), `dplyr` package is used to convert the class of dataset `mtcars` from `data.frame` into `tibble` using the following commands:
 
 ```R
-library(dplyr) #Load `dplyr` package
-iris_tibble <- tbl_df(mtcars) #convert `mtcars` `data.frame` into `tibble`
+library(dplyr) #load `dplyr` package
+iris_tibble <- tbl_df(mtcars) #convert the class of `mtcars` into `tibble`
 ```
-In [tibble.R](https://github.com/puneeth019/playground/blob/master/dplyr.R), `tibble` package is used to convert the class of `mtcars` from `data.frame` into `tibble` using the following commands:
+In [tibble.R](https://github.com/puneeth019/playground/blob/master/tibble.R), `tibble` package is used to convert the class of dataset `mtcars` from `data.frame` into `tibble` using the following commands:
 
 ```R
-library(tibble) #Load `tibble` package
-iris_tibble <- as_data_frame(mtcars) #convert `mtcars` `data.frame` into `tibble`
+library(tibble) #load `tibble` package
+iris_tibble <- as_data_frame(mtcars) #convert the class of `mtcars` into `tibble`
 ```
