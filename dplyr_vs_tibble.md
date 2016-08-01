@@ -1,12 +1,12 @@
-###Differences between [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html) and [`tibble`](https://cran.r-project.org/web/packages/tibble/index.html) packages to convert `data.frame` into `tibble`
+###[`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html) and [`tibble`](https://cran.r-project.org/web/packages/tibble/index.html) packages to convert `data.frame` into `tibble`
 
 In [dplyr.R](https://github.com/puneeth019/playground/blob/master/dplyr.R), `dplyr` package is used to convert the dataset `mtcars` from `data.frame` into `tibble`
 
 ```R
 library(dplyr) #load `dplyr` package
 mtcars_dplyr <- tbl_df(data = mtcars) #convert the class of `mtcars` into `tibble`
-mtcars_dplyr
 
+mtcars_dplyr
 # A tibble: 32 x 11
      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 *  <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
@@ -27,8 +27,8 @@ In [tibble.R](https://github.com/puneeth019/playground/blob/master/tibble.R), `t
 ```R
 library(tibble) #load `tibble` package
 mtcars_tibble <- as_data_frame(x = mtcars) #convert the class of `mtcars` into `tibble`
-mtcars_tibble
 
+mtcars_tibble
 # A tibble: 32 x 11
      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 *  <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
