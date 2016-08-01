@@ -12,7 +12,7 @@ In [tibble.R](https://github.com/puneeth019/playground/blob/master/tibble.R), `t
 library(tibble) #load `tibble` package
 mtcars_tibble <- as_data_frame(x = mtcars) #convert the class of `mtcars` into `tibble`
 ```
-Check if both the `tibble`s `mtcars_dplyr` & `mtcars_tibble` are identical
+Check if `mtcars_dplyr` & `mtcars_tibble` are identical
 
 ```R
 identical(x = mtcars_dplyr, y = mtcars_tibble)
