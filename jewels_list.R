@@ -2,7 +2,7 @@
 # Source - Wikipedia
 library(XML)
 
-setwd("C:/Users/lc067/Documents/DA/Projects/Bollywood_Jewels/")
+setwd("~/Documents/DA/Projects/Bollywood_Jewels/")
 file_url <- "https://en.wikipedia.org/wiki/List_of_Bollywood_actresses"
 
 if(!file.exists("List_of_Bollywood_actresses.html")){
