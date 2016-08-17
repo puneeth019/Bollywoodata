@@ -1,5 +1,6 @@
 
 Names of Bollywood Actresses scraped from [wiki](https://en.wikipedia.org/wiki/List_of_Bollywood_actresses)
+Scripts used --> [scrapehtml.R](https://github.com/puneeth019/playground/blob/master/scrapehtml.R) & [getnames.R](https://github.com/puneeth019/playground/blob/master/getnames.R)
 
 ```
 > names
