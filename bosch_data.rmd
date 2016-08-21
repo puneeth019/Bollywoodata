@@ -120,21 +120,3 @@ Bosch Data
 #   L0_S13_D357 <dbl>, L0_S14_D360 <dbl>, L0_S14_D364 <dbl>, L0_S14_D368 <dbl>, L0_S14_D372 <dbl>,
 #   L0_S14_D376 <dbl>, L0_S14_D380 <dbl>, L0_S14_D384 <dbl>, ...
 ```
-
-```
-> library(readr)
-> test_numeric <- read_csv("test_numeric.csv")
-> test_numeric
-```
-
-```
-> library(readr)
-> test_categorical <- read_csv("test_categorical.csv")
-> test_categorical
-```
-
-```
-> library(readr)
-> test_date <- read_csv("test_date.csv")
-> test_date
-```
