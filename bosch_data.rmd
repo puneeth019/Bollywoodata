@@ -45,5 +45,64 @@ Bosch Data
 > library(readr)
 > train_categorical <- read_csv("train_categorical.csv")
 > train_categorical
+# A tibble: 1,183,747 x 2,141
+      Id L0_S1_F25 L0_S1_F27 L0_S1_F29 L0_S1_F31 L0_S2_F33 L0_S2_F35 L0_S2_F37 L0_S2_F39 L0_S2_F41
+   <int>     <chr>     <chr>     <chr>     <chr>     <chr>     <chr>     <chr>     <chr>     <chr>
+1      4      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+2      6      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+3      7      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+4      9      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+5     11      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+6     13      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+7     14      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+8     16      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+9     18      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+10    23      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>      <NA>
+# ... with 1,183,737 more rows, and 2131 more variables: L0_S2_F43 <chr>, L0_S2_F45 <chr>,
+#   L0_S2_F47 <chr>, L0_S2_F49 <chr>, L0_S2_F51 <chr>, L0_S2_F53 <chr>, L0_S2_F55 <chr>,
+#   L0_S2_F57 <chr>, L0_S2_F59 <chr>, L0_S2_F61 <chr>, L0_S2_F63 <chr>, L0_S2_F65 <chr>,
+#   L0_S2_F67 <chr>, L0_S3_F69 <chr>, L0_S3_F71 <chr>, L0_S3_F73 <chr>, L0_S3_F75 <chr>,
+#   L0_S3_F77 <chr>, L0_S3_F79 <chr>, L0_S3_F81 <chr>, L0_S3_F83 <chr>, L0_S3_F85 <chr>,
+#   L0_S3_F87 <chr>, L0_S3_F89 <chr>, L0_S3_F91 <chr>, L0_S3_F93 <chr>, L0_S3_F95 <chr>,
+#   L0_S3_F97 <chr>, L0_S3_F99 <chr>, L0_S3_F101 <chr>, L0_S3_F103 <chr>, L0_S4_F105 <chr>,
+#   L0_S4_F107 <chr>, L0_S4_F108 <chr>, L0_S4_F110 <chr>, L0_S4_F112 <chr>, L0_S4_F113 <chr>,
+#   L0_S6_F119 <chr>, L0_S6_F121 <chr>, L0_S6_F123 <chr>, L0_S6_F125 <chr>, L0_S6_F126 <chr>,
+#   L0_S6_F128 <chr>, L0_S6_F129 <chr>, L0_S6_F131 <chr>, L0_S6_F133 <chr>, L0_S6_F135 <chr>,
+#   L0_S9_F151 <chr>, L0_S9_F153 <chr>, L0_S9_F154 <chr>, L0_S9_F156 <chr>, L0_S9_F158 <chr>,
+#   L0_S9_F159 <chr>, L0_S9_F161 <chr>, L0_S9_F163 <chr>, L0_S9_F164 <chr>, L0_S9_F166 <chr>,
+#   L0_S9_F168 <chr>, L0_S9_F169 <chr>, L0_S9_F171 <chr>, L0_S9_F173 <chr>, L0_S9_F174 <chr>,
+#   L0_S9_F176 <chr>, L0_S9_F178 <chr>, L0_S9_F179 <chr>, L0_S9_F181 <chr>, L0_S9_F183 <chr>,
+#   L0_S9_F184 <chr>, L0_S9_F186 <chr>, L0_S9_F188 <chr>, L0_S9_F189 <chr>, L0_S9_F191 <chr>,
+#   L0_S9_F193 <chr>, L0_S9_F194 <chr>, L0_S9_F196 <chr>, L0_S9_F198 <chr>, L0_S9_F199 <chr>,
+#   L0_S9_F201 <chr>, L0_S9_F203 <chr>, L0_S9_F204 <chr>, L0_S9_F206 <chr>, L0_S9_F208 <chr>,
+#   L0_S9_F209 <chr>, L0_S9_F211 <chr>, L0_S9_F213 <chr>, L0_S9_F214 <chr>, L0_S10_F215 <chr>,
+#   L0_S10_F217 <chr>, L0_S10_F218 <chr>, L0_S10_F220 <chr>, L0_S10_F222 <chr>, L0_S10_F223 <chr>,
+#   L0_S10_F225 <chr>, L0_S10_F227 <chr>, L0_S10_F228 <chr>, L0_S10_F230 <chr>, L0_S10_F232 <chr>,
+#   L0_S10_F233 <chr>, L0_S10_F235 <chr>, L0_S10_F237 <chr>, ...
+```
+
+```
+> library(readr)
+> train_date <- read_csv("train_date.csv")
+> train_date
+```
+
+```
+> library(readr)
+> test_numeric <- read_csv("test_numeric.csv")
+> test_numeric
+```
+
+```
+> library(readr)
+> test_categorical <- read_csv("test_categorical.csv")
+> test_categorical
+```
+
+```
+> library(readr)
+> test_date <- read_csv("test_date.csv")
+> test_date
+```
 
 
