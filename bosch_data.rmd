@@ -85,6 +85,40 @@ Bosch Data
 > library(readr)
 > train_date <- read_csv("train_date.csv")
 > train_date
+# A tibble: 1,183,747 x 1,157
+      Id L0_S0_D1 L0_S0_D3 L0_S0_D5 L0_S0_D7 L0_S0_D9 L0_S0_D11 L0_S0_D13 L0_S0_D15 L0_S0_D17 L0_S0_D19
+   <int>    <dbl>    <dbl>    <dbl>    <dbl>    <dbl>     <dbl>     <dbl>     <dbl>     <dbl>     <dbl>
+1      4    82.24    82.24    82.24    82.24    82.24     82.24     82.24     82.24     82.24     82.24
+2      6       NA       NA       NA       NA       NA        NA        NA        NA        NA        NA
+3      7  1618.70  1618.70  1618.70  1618.70  1618.70   1618.70   1618.70   1618.70   1618.70   1618.70
+4      9  1149.20  1149.20  1149.20  1149.20  1149.20   1149.20   1149.20   1149.20   1149.20   1149.20
+5     11   602.64   602.64   602.64   602.64   602.64    602.64    602.64    602.64    602.64    602.64
+6     13  1331.66  1331.66  1331.66  1331.66  1331.66   1331.66   1331.66   1331.66   1331.66   1331.66
+7     14       NA       NA       NA       NA       NA        NA        NA        NA        NA        NA
+8     16       NA       NA       NA       NA       NA        NA        NA        NA        NA        NA
+9     18   517.64   517.64   517.64   517.64   517.64    517.64    517.64    517.64    517.64    517.64
+10    23       NA       NA       NA       NA       NA        NA        NA        NA        NA        NA
+# ... with 1,183,737 more rows, and 1146 more variables: L0_S0_D21 <dbl>, L0_S0_D23 <dbl>,
+#   L0_S1_D26 <dbl>, L0_S1_D30 <dbl>, L0_S2_D34 <dbl>, L0_S2_D38 <dbl>, L0_S2_D42 <dbl>,
+#   L0_S2_D46 <dbl>, L0_S2_D50 <dbl>, L0_S2_D54 <dbl>, L0_S2_D58 <dbl>, L0_S2_D62 <dbl>,
+#   L0_S2_D66 <dbl>, L0_S3_D70 <dbl>, L0_S3_D74 <dbl>, L0_S3_D78 <dbl>, L0_S3_D82 <dbl>,
+#   L0_S3_D86 <dbl>, L0_S3_D90 <dbl>, L0_S3_D94 <dbl>, L0_S3_D98 <dbl>, L0_S3_D102 <dbl>,
+#   L0_S4_D106 <dbl>, L0_S4_D111 <dbl>, L0_S5_D115 <dbl>, L0_S5_D117 <dbl>, L0_S6_D120 <dbl>,
+#   L0_S6_D124 <dbl>, L0_S6_D127 <dbl>, L0_S6_D130 <dbl>, L0_S6_D134 <dbl>, L0_S7_D137 <dbl>,
+#   L0_S7_D139 <dbl>, L0_S7_D140 <dbl>, L0_S7_D141 <dbl>, L0_S7_D143 <dbl>, L0_S8_D145 <dbl>,
+#   L0_S8_D147 <dbl>, L0_S8_D148 <dbl>, L0_S8_D150 <dbl>, L0_S9_D152 <dbl>, L0_S9_D157 <dbl>,
+#   L0_S9_D162 <dbl>, L0_S9_D167 <dbl>, L0_S9_D172 <dbl>, L0_S9_D177 <dbl>, L0_S9_D182 <dbl>,
+#   L0_S9_D187 <dbl>, L0_S9_D192 <dbl>, L0_S9_D197 <dbl>, L0_S9_D202 <dbl>, L0_S9_D207 <dbl>,
+#   L0_S9_D212 <dbl>, L0_S10_D216 <dbl>, L0_S10_D221 <dbl>, L0_S10_D226 <dbl>, L0_S10_D231 <dbl>,
+#   L0_S10_D236 <dbl>, L0_S10_D241 <dbl>, L0_S10_D246 <dbl>, L0_S10_D251 <dbl>, L0_S10_D256 <dbl>,
+#   L0_S10_D261 <dbl>, L0_S10_D266 <dbl>, L0_S10_D271 <dbl>, L0_S10_D276 <dbl>, L0_S11_D280 <dbl>,
+#   L0_S11_D284 <dbl>, L0_S11_D288 <dbl>, L0_S11_D292 <dbl>, L0_S11_D296 <dbl>, L0_S11_D300 <dbl>,
+#   L0_S11_D304 <dbl>, L0_S11_D308 <dbl>, L0_S11_D312 <dbl>, L0_S11_D316 <dbl>, L0_S11_D320 <dbl>,
+#   L0_S11_D324 <dbl>, L0_S11_D328 <dbl>, L0_S12_D331 <dbl>, L0_S12_D333 <dbl>, L0_S12_D335 <dbl>,
+#   L0_S12_D337 <dbl>, L0_S12_D339 <dbl>, L0_S12_D341 <dbl>, L0_S12_D343 <dbl>, L0_S12_D345 <dbl>,
+#   L0_S12_D347 <dbl>, L0_S12_D349 <dbl>, L0_S12_D351 <dbl>, L0_S12_D353 <dbl>, L0_S13_D355 <dbl>,
+#   L0_S13_D357 <dbl>, L0_S14_D360 <dbl>, L0_S14_D364 <dbl>, L0_S14_D368 <dbl>, L0_S14_D372 <dbl>,
+#   L0_S14_D376 <dbl>, L0_S14_D380 <dbl>, L0_S14_D384 <dbl>, ...
 ```
 
 ```
@@ -104,5 +138,3 @@ Bosch Data
 > test_date <- read_csv("test_date.csv")
 > test_date
 ```
-
-
