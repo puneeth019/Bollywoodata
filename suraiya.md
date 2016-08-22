@@ -1,5 +1,3 @@
-`table_suraiya`
-
 ```
    Year                Film           Director                Producer        Role      Music_Director
 1  1937      Usne Kya Socha                  –                       –           –                   –
