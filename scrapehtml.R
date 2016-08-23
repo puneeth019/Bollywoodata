@@ -1,7 +1,7 @@
 # Scrape Bollywood Actress names from wiki
 library(XML) # Load `XML` package
 
-setwd("C:/Users/lc067/Documents/DA/Projects/Project1/")
+setwd("~/Documents/DA/Projects/Project1/")
 # Set Working directory
 file_url <- "https://en.wikipedia.org/wiki/List_of_Bollywood_actresses"
 # Assign the wiki url to `file_url`
