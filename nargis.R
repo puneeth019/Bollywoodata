@@ -3,7 +3,7 @@ library(rvest) # Load `XML` package
 library(dplyr) # Load `dplyr` package
 library(stringr) # Load `stringr` package
 
-setwd("~Documents/DA/Projects/Project1/")
+setwd("~/Documents/DA/Projects/Bollywood_Jewels/")
 # Set Working directory
 file_url <- "https://en.wikipedia.org/wiki/Nargis"
 # Assign the wiki url to `file_url`
@@ -29,10 +29,14 @@ names(text_nargis) <- c("Year", "Film")
 text_nargis$Film <- text_nargis$Year
   # copy column-1 data to column-2
 
+# clean text to get 1st column
 text_nargis$Year <- text_nargis$Film
 text_nargis$Year <- gsub(pattern = '.*\\((.*?)\\)', replacement = '\\1', x = text_nargis$Year)
 text_nargis$Year <- gsub(pattern = '[a-z]', replacement = NA_character_, x = text_nargis$Year)
 text_nargis$Year
 
-aa <- gsub(pattern = '.*\\((.*)\\)', replacement = ' ', x = text_nargis$Film)
-aa
+# clean text to get 2nd column
+text_nargis$Film <- gsub(pattern = '\\((.*)\\)', replacement = '', x = text_nargis$Film)
+text_nargis$Film <- str_trim(string = text_nargis$Film)
+
+write.csv(x = text_nargis, file = "nargis.csv")
