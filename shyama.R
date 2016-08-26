@@ -31,7 +31,6 @@ table_shyama$Film <- table_shyama$Year
   # copy column-1 data to column-2
 
 # clean text in column-1
-table_shyama$Year <- table_shyama$Film
 table_shyama$Year <- gsub(pattern = '[a-zA-Z]|\\(|\\)|-|,|\'|\\.', replacement = '', x = table_shyama$Year)
 table_shyama$Year <- str_trim(string = table_shyama$Year)
 table_shyama$Year <- substr(x = table_shyama$Year, start = 1, stop = 4)
