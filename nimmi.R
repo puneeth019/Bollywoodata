@@ -29,11 +29,12 @@ names(table_nimmi) <- c("Year", "Film")
 table_nimmi$Film <- table_nimmi$Year
   # copy column-1 data to column-2
 
-table_nimmi$Year <- table_nimmi$Film 
+# clean text in column1
 table_nimmi$Year <- gsub(pattern = '.*\\((.*?)\\)', replacement = '\\1', x = table_nimmi$Year)
 table_nimmi$Year <- gsub(pattern = '[$.]', replacement = '', x = table_nimmi$Year)
 table_nimmi$Year <- str_trim(string = table_nimmi$Year)
 
+# clean text in column2
 table_nimmi$Film <- gsub(pattern = '\\((.*)\\)', replacement = '', x = table_nimmi$Film)
 table_nimmi$Film <- gsub(pattern = '[$.]', replacement = '', x = table_nimmi$Film)
 table_nimmi$Film <- str_trim(string = table_nimmi$Film)
