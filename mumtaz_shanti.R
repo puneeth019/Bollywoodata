@@ -31,7 +31,6 @@ table_mumtazshanti$Film <- table_mumtazshanti$Year
   # copy column-1 data to column-2
 
 # clean text in column-1
-table_mumtazshanti$Year <- table_mumtazshanti$Film
 table_mumtazshanti$Year <- gsub(pattern = '[a-zA-Z]', replacement = '', x = table_mumtazshanti$Year)
 table_mumtazshanti$Year <- gsub(pattern = '\\(|\\)', replacement = '', x = table_mumtazshanti$Year)
 table_mumtazshanti$Year <- str_trim(string = table_mumtazshanti$Year)
