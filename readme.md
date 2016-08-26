@@ -1,1 +1,1 @@
-Plan is to get all the data related to bollywood.
+Plan is to get all data related to bollywood.
