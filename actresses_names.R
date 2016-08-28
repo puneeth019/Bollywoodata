@@ -2,6 +2,7 @@
 library(XML)    # Load `XML` package
 library(dplyr)  # Load `dplyr` package
 library(rvest)  # Load `rvest` package
+library(stringr)# Load `stringr` package 
 
 setwd("~/Documents/DA/Github/repos/Bollywoodata/")
 # Set Working directory
@@ -130,5 +131,14 @@ table_actresses_full <- full_join(x = table_actresses_full, y =table_actresses_2
 
 # remove repetitions
 table_actresses_full <- table_actresses_full[!duplicated(x = table_actresses_full$Name),]
+
+# clean text in column-1
+table_actresses_full$Name <- table_actresses_full$Name
+table_actresses_full$Name <- gsub(pattern = "(.*)\\(.*", replacement = '\\1', x = table_actresses_full$Name)
+table_actresses_full$Name <- str_trim(string = table_actresses_full$Name)
+
+# clean text in column-2
+table_actresses_full$Film <- gsub(pattern = "(.*)[\n].*", replacement = '\\1', x = table_actresses_full$Film)
+table_actresses_full$Film
 
 write.csv(x = table_actresses_full, file = 'actresses_names.csv')
