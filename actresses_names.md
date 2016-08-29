@@ -4,7 +4,7 @@ Names of Bollywood Actresses scraped from [wiki](https://en.wikipedia.org/wiki/L
 Scripts used --> [scrapehtml.R](https://github.com/puneeth019/Bollywoodata/blob/master/scrapehtml.R) & [getnames.R](https://github.com/puneeth019/Bollywoodata/blob/master/getnames.R)
 
 ```
-> as.data.frame(table_actresses_full)
+> table_actresses_full
                     Name                        Film Year
 1                Suraiya              Usne Kya Socha 1937
 2              Madhubala                      Basant 1942
