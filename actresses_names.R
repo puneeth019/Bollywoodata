@@ -95,7 +95,6 @@ table_actresses_2010_2 <- as.data.frame(x = table_actresses_2010_2)
 names(table_actresses_1940) <- c("Name", "Film", "Year", "Film2", "Year2")
 table_actresses_1940 <- select(.data = table_actresses_1940, (Name:Year))
 
-names(table_actresses_1940) <- c("Name", "Film", "Year")
 names(table_actresses_1950) <- c("Name", "Film", "Year")
 names(table_actresses_1960) <- c("Name", "Film", "Year")
 names(table_actresses_1970) <- c("Name", "Film", "Year")
@@ -118,7 +117,7 @@ table_actresses_2000 <- tbl_df(table_actresses_2000)
 table_actresses_2010_1 <- tbl_df(table_actresses_2010_1)
 table_actresses_2010_2 <- tbl_df(table_actresses_2010_2)
 
-# merge actresses names from all years into single `data.frame`
+# merge data from all years into a single `data.frame`
 table_actresses_full <- full_join(x = table_actresses_1940, y =table_actresses_1950, by = NULL)
 table_actresses_full <- full_join(x = table_actresses_full, y =table_actresses_1960, by = NULL)
 table_actresses_full <- full_join(x = table_actresses_full, y =table_actresses_1970, by = NULL)
@@ -140,5 +139,8 @@ table_actresses_full$Name <- str_trim(string = table_actresses_full$Name)
 # clean text in column-2
 table_actresses_full$Film <- gsub(pattern = "(.*)[\n].*", replacement = '\\1', x = table_actresses_full$Film)
 table_actresses_full$Film
+
+# convert `tibble` into `data.frame`
+table_actresses_full <- as.data.frame(table_actresses_full)
 
 write.csv(x = table_actresses_full, file = 'actresses_names.csv')
