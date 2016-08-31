@@ -132,13 +132,11 @@ table_actresses_full <- full_join(x = table_actresses_full, y =table_actresses_2
 table_actresses_full <- table_actresses_full[!duplicated(x = table_actresses_full$Name),]
 
 # clean text in column-1
-table_actresses_full$Name <- table_actresses_full$Name
 table_actresses_full$Name <- gsub(pattern = "(.*)\\(.*", replacement = '\\1', x = table_actresses_full$Name)
 table_actresses_full$Name <- str_trim(string = table_actresses_full$Name)
 
 # clean text in column-2
 table_actresses_full$Film <- gsub(pattern = "(.*)[\n].*", replacement = '\\1', x = table_actresses_full$Film)
-table_actresses_full$Film
 
 # convert `tibble` into `data.frame`
 table_actresses_full <- as.data.frame(table_actresses_full)
