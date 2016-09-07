@@ -1,7 +1,7 @@
 # Scrape Bollywood Actress data from wiki
-library("rvest")    # Load `XML` package
-library("dplyr")    # Load `dplyr` pacakge
-library("stringr")  # Load `stringr` package
+library(rvest)    # Load `XML` package
+library(dplyr)    # Load `dplyr` pacakge
+library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/")
 # Set Working directory
