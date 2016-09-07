@@ -2,7 +2,6 @@
 library(stringr)# Load `stringr` package
 library(rvest)  # Load `XML` package
 library(dplyr)  # Load `dplyr` pacakge
-library(XML)    # Load `XML` package
 
 setwd(dir = "~/Documents/DA/Projects/Project1/")
 # Set Working directory
