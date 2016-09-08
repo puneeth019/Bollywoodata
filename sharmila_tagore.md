@@ -1,0 +1,63 @@
+```
+> table_sharmilatagore
+   Year                          Film                Director                           Role  Language
+1  1959                   Apur Sansar            Satyajit Ray                         Aparna   Bengali
+2  1960                          Devi            Satyajit Ray                      Doyamoyee   Bengali
+3  1963                    Shesh Anka    Haridas Bhattacharya                           Mala   Bengali
+4  1963                Nirjan Saikate             Tapan Sinha                           Renu   Bengali
+5  1963                 Chhaya Shurjo Partha Pratim Chowdhury                        Ghentoo   Bengali
+6  1964               Kashmir Ki Kali          Shakti Samanta                         Champa     Hindi
+7  1965                          Waqt             Yash Chopra                    Renu Khanna     Hindi
+8  1965                      Dak Ghar             Zul Vellani               guest appearance     Hindi
+9  1966                       Anupama    Hrishikesh Mukherjee                     Uma Sharma     Hindi
+10 1966                         Devar            Mohan Sehgal          Madhumati / Banwariya     Hindi
+11 1966                Sawan Ki Ghata          Shakti Samanta                          Seema     Hindi
+12 1966                         Nayak            Satyajit Ray                          Aditi     Hindi
+13 1966       Yeh Raat Phir Na Aayegi                    Brij               Kiran / Kiranmai     Hindi
+14 1967                 Milan Ki Raat          R.Bhattacharya                           <NA>     Hindi
+15 1967           An Evening in Paris          Shakti Samanta Deepa Malik/Roopa Malik (Suzy)     Hindi
+16 1967                  Aamne Saamne           Suraj Prakash Sapna Mathur / Sapna G. Mittal     Hindi
+17 1968         Mere Hamdam Mere Dost              Amar Kumar                          Anita     Hindi
+18 1968                       Humsaya           Joy Mukherjee                      Leena Sen     Hindi
+19 1969                        Yakeen                    Brij                           Rita     Hindi
+20 1969                      Satyakam    Hrishikesh Mukherjee                        Ranjana     Hindi
+21 1969                        Talash            O. P. Ralhan                  Madhu / Gauri     Hindi
+22 1969                      Aradhana          Shakti Samanta              Vandhana Tripathi     Hindi
+23 1970             Aranyer Din Ratri            Satyajit Ray                         Aparna   Bengali
+24 1970                         Safar                Asit Sen                   Neela Kapoor     Hindi
+25 1971                   Seemabaddha            Satyajit Ray                          Tutul   Bengali
+26 1971                   Chhoti Bahu              K.B. Tilak                          Radha     Hindi
+27 1972                     Amar Prem          Shakti Samanta                         Pushpa     Hindi
+28 1972                       Dastaan              B.R.Chopra                          Meena     Hindi
+29 1972           Yeh Gulistan Hamara                Atma Ram                       Soo Reni     Hindi
+30 1973                     Raja Rani         Sachin Bhowmick                 Nirmala / Rani     Hindi
+31 1973                          Daag             Yash Chopra                    Sonia Kohli     Hindi
+32 1973               Aa Gale Lag Jaa          Manmohan Desai                         Preeti     Hindi
+33 1974                     Aavishkar       Basu Bhattacharya                          Mansi     Hindi
+34 1975                        Mausam                  Gulzar                   Chanda/Kajli     Hindi
+35 1975                 Chupke Chupke    Hrishikesh Mukherjee             Sulekha Chaturvedi     Hindi
+36 1975                        Faraar       Shanker Mukherjee                      Mala/Asha     Hindi
+37 1977                       Amanush          Shakti Samanta                          Rekha     Hindi
+38 1978                      Besharam             Deven Verma                   Rinku/Monica     Hindi
+39 1979           Chuvanna Chirakukal                   Jayan                           <NA> Malayalam
+40 1979                     Dooriyaan        Bhimsain Khurana                           <NA>     Hindi
+41 1982                       Namkeen                  Gulzar                          Nimki     Hindi
+42 1982                   Desh Premee          Manmohan Desai                         Bharti     Hindi
+43 1983                      Protidan             Prabhat Roy                           <NA>   Bengali
+44 1983     Gehri Chot - Urf: Durdesh          Ambrish Sangal                         Shobha      <NA>
+45 1984                         Sunny              Raj Khosla                 Sunny's mother     Hindi
+46 1991            Mississippi Masala               Mira Nair                          Kinnu   English
+47 1993                  Aashiq Awara             Umesh Mehra                     Mrs. Singh     Hindi
+48 1999                          Mann             Indra Kumar              Dev's grandmother     Hindi
+49 2000                       Dhadkan        Dharmesh Darshan                   Dev's mother     Hindi
+50 2002                   Abar Aranye            Goutam Ghosh          Ashim's wife - Aprana   Bengali
+51 2003                Shubho Mahurat         Rituparno Ghosh              Padmini Chowdhury   Bengali
+52 2005 Viruddh... Family Comes First        Mahesh Manjrekar             Sumitra Patwardhan     Hindi
+53 2006      Eklavya: The Royal Guard      Vidhu Vinod Chopra                   Suhasinidevi     Hindi
+54 2007                Fool and Final              Ahmed Khan                          Bhabi     Hindi
+55 2008                  Tasveer 8*10         Nagesh Kukunoor                  Savithri Puri     Hindi
+56 2009                      Antaheen Aniruddha Roy Chowdhury                        Pishima   Bengali
+57 2009                  Morning Walk              Arup Dutta                        Neelima     Hindi
+58 2009                     Samaantar            Amol Palekar                     Shama Vaze   Marathi
+59 2010                 Break Ke Baad            Danish Aslam                    Ayesha Khan     Hindi
+```
