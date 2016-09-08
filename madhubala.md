@@ -1,76 +1,75 @@
-```
-> table_madhubala
-   Year              Film           Director
-1  1942            Basant  Amiya Chakravarty
-2  1944       MumtazMahal       Kidar Sharma
-3  1945      DhannaBhagat       Kidar Sharma
-4  1946            Pujari               Aspi
-5  1946         Phoolwari   Chaturbhuj Doshi
-6  1946         Rajputani               Aspi
-7  1947     NeelKamalfilm       Kidar Sharma
-8  1947      ChittarVijay        Mohan Sinha
-9  1947       MereBhagwan        Mohan Sinha
-10 1947  KhubsooratDuniya        Mohan Sinha
-11 1947       Dil-Ki-Rani        Mohan Sinha
-12 1948          ParaiAag         Najm Naqvi
-13 1948        LalDupatta           K.B.Lall
-14 1948          DeshSewa            N.Vakil
-15 1948          AmarPrem         N.M.Kelkar
-16 1949          Sipahiya               Aspi
-17 1949           Singaar          J.K.Nanda
-18 1949             Paras       Anant Thakur
-19 1949       NekiAurBadi       Kidar Sharma
-20 1949             Mahal       Kamal Amrohi
-21 1949          Imtihaan        Mohan Sinha
-22 1949            Dulari       A. R. Kardar
-23 1949            Daulat        Sohrab Modi
-24 1949          Aparadhi          Y.Pethkar
-25 1950            Pardes            M.Sadiq
-26 1950           Nishana      Wajahat Mirza
-27 1950            Nirala Devendra Mukherjee
-28 1950         Madhubala       Prahlad Dutt
-29 1950      HansteAansoo           K.B.Lall
-30 1950          Beqasoor        K. Amarnath
-31 1951            Tarana        Ram Daryani
-32 1951            Saiyan           M. Sadiq
-33 1951           Nazneen          N.K.Ziree
-34 1951            Nadaan         Hira Singh
-35 1951           Khazana            M.Sadiq
-36 1951             Badal  Amiya Chakravarty
-37 1951             Aaram      D. D. Kashyap
-38 1952              Saqi       H. S. Rawail
-39 1952      Deshabakthan  Amiya Chakrabarty
-40 1952           Sangdil       R. C. Talwar
-41 1953       RailKaDibba        P. N. Arora
-42 1953            Armaan        Fali Mistry
-43 1954      BahutDinHuye          S.S.Vasan
-44 1954              Amar       Mehboob Khan
-45 1955         Teerandaz         H.S.Rawail
-46 1955             Naqab     Lekhraj Bhakri
-47 1955             Naata       D. N. Madhok
-48 1955          Mr.&Mrs.          Guru Dutt
-49 1956      ShirinFarhad         Aspi Irani
-50 1956           RajHath        Sohrab Modi
-51 1956     DhakeKiMalmal          J.K.Nanda
-52 1957     YahudiKiLadki        S.D. Narang
-53 1957    GatewayofIndia         Om Prakash
-54 1957            EkSaal      Devendra Goel
-55 1958            Police           Kali Das
-56 1958            Phagun      Bibhuti Mitra
-57 1958          KalaPani         Raj Khosla
-58 1958      HowrahBridge     Shakti Samanta
-59 1958 ChaltiKaNaamGaadi        Satyen Bose
-60 1958       BaghiSipahi   Bhagwandas Varma
-61 1959      KalHamaraHai      S.K.Prabhakar
-62 1959    InsaanJaagUtha     Shakti Samanta
-63 1959           DoUstad        Tara Harish
-64 1960     MehlonKeKhwab              Hyder
-65 1960         JaaliNote     Shakti Samanta
-66 1960     BarsaatKiRaat       P.L.Santoshi
-67 1960     Mughal-e-Azam             K.Asif
-68 1961          Passport Pramod Chakravorty
-69 1961           Jhumroo   Shankar Mukherji
-70 1961         BoyFriend      Naresh Saigal
-71 1962        HalfTicket           Kali Das
-72 1964           Sharabi          Raj Rishi
+```> table_madhubala
+   Year                 Film           Director                                                  Notes
+1  1942               Basant  Amiya Chakravarty                      as Manju; credited as Baby Mumtaz
+2  1944         Mumtaz Mahal       Kidar Sharma                                     as a child artiste
+3  1945        Dhanna Bhagat       Kidar Sharma                                     as a child artiste
+4  1946               Pujari               Aspi                                     as a child artiste
+5  1946            Phoolwari   Chaturbhuj Doshi                                     as a child artiste
+6  1946            Rajputani               Aspi                                     as a child artiste
+7  1947           Neel Kamal       Kidar Sharma                                First film as a heroine
+8  1947        Chittar Vijay        Mohan Sinha                                                   <NA>
+9  1947         Mere Bhagwan        Mohan Sinha                                                   <NA>
+10 1947    Khubsoorat Duniya        Mohan Sinha                                                   <NA>
+11 1947          Dil-Ki-Rani        Mohan Sinha                                    as Raj Kumari Singh
+12 1948            Parai Aag         Najm Naqvi                                                   <NA>
+13 1948          Lal Dupatta           K.B.Lall                                                   <NA>
+14 1948            Desh Sewa            N.Vakil                                                   <NA>
+15 1948            Amar Prem         N.M.Kelkar                                                   <NA>
+16 1949             Sipahiya               Aspi                                                   <NA>
+17 1949              Singaar          J.K.Nanda                                                   <NA>
+18 1949                Paras       Anant Thakur                                               as Priya
+19 1949        Neki Aur Badi       Kidar Sharma                                                   <NA>
+20 1949                Mahal       Kamal Amrohi                                              as Kamini
+21 1949             Imtihaan        Mohan Sinha                                                   <NA>
+22 1949               Dulari       A. R. Kardar                                       as Shobha/Dulari
+23 1949               Daulat        Sohrab Modi                                                   <NA>
+24 1949             Aparadhi          Y.Pethkar                                         as Sheela Rani
+25 1950               Pardes            M.Sadiq                                              as Chanda
+26 1950              Nishana      Wajahat Mirza                                               as Greta
+27 1950               Nirala Devendra Mukherjee                                              as Poonam
+28 1950            Madhubala       Prahlad Dutt                                                   <NA>
+29 1950        Hanste Aansoo           K.B.Lall                                                   <NA>
+30 1950             Beqasoor        K. Amarnath                                                as Usha
+31 1951               Tarana        Ram Daryani                                              as Tarana
+32 1951               Saiyan           M. Sadiq                                              as Saiyan
+33 1951              Nazneen          N.K.Ziree                                                   <NA>
+34 1951               Nadaan         Hira Singh                                                   <NA>
+35 1951              Khazana            M.Sadiq                                                   <NA>
+36 1951                Badal  Amiya Chakravarty                                               as Ratna
+37 1951                Aaram      D. D. Kashyap                                               as Leela
+38 1952                 Saqi       H. S. Rawail                                            as Rukhsana
+39 1952         Deshabakthan  Amiya Chakrabarty                                                   <NA>
+40 1952              Sangdil       R. C. Talwar                                                   <NA>
+41 1953        Rail Ka Dibba        P. N. Arora                                              as Chanda
+42 1953               Armaan        Fali Mistry                                                   <NA>
+43 1954       Bahut Din Huye          S.S.Vasan                                        as Chandrakanta
+44 1954                 Amar       Mehboob Khan                                                as Anju
+45 1955            Teerandaz         H.S.Rawail                                                   <NA>
+46 1955                Naqab     Lekhraj Bhakri                                                   <NA>
+47 1955                Naata       D. N. Madhok                                                as Tara
+48 1955       Mr. & Mrs. '55          Guru Dutt                                         as Anita Verma
+49 1956        Shirin Farhad         Aspi Irani                                              as Shirin
+50 1956             Raj Hath        Sohrab Modi                                 as Raja Beti/Rajkumari
+51 1956      Dhake Ki Malmal          J.K.Nanda                                                   <NA>
+52 1957      Yahudi Ki Ladki        S.D. Narang                                                   <NA>
+53 1957     Gateway of India         Om Prakash                                                as Anju
+54 1957              Ek Saal      Devendra Goel                                          as Usha Sinha
+55 1958               Police           Kali Das                                                   <NA>
+56 1958               Phagun      Bibhuti Mitra                                              as Banani
+57 1958            Kala Pani         Raj Khosla                                                as Asha
+58 1958        Howrah Bridge     Shakti Samanta                                                as Edna
+59 1958 Chalti Ka Naam Gaadi        Satyen Bose                                                as Renu
+60 1958         Baghi Sipahi   Bhagwandas Varma                                                   <NA>
+61 1959       Kal Hamara Hai      S.K.Prabhakar                                          as Madhu/Bela
+62 1959     Insaan Jaag Utha     Shakti Samanta                                               as Gauri
+63 1959             Do Ustad        Tara Harish                                        as Madhu Sharma
+64 1960      Mehlon Ke Khwab              Hyder                                                as Asha
+65 1960           Jaali Note     Shakti Samanta                                          as Renu/Beena
+66 1960      Barsaat Ki Raat       P.L.Santoshi                                             as Shabnam
+67 1960        Mughal-e-Azam             K.Asif as Anarkali; Nominated—Filmfare Award for Best Actress
+68 1961             Passport Pramod Chakravorty                                     as Rita Bhagwandas
+69 1961              Jhumroo   Shankar Mukherji                                              as Anjana
+70 1961           Boy Friend      Naresh Saigal                                            as Sangeeta
+71 1962          Half Ticket           Kali Das                                      as Rajnidevi/Asha
+72 1964              Sharabi          Raj Rishi                                              as Kamala
 ```
