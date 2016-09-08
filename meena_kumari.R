@@ -24,11 +24,14 @@ table_meenakumari <- select(.data = table_meenakumari, (Year:Role))
 
 # clean text in column-1
 table_meenakumari$Year <- gsub(pattern = '^$', replacement = NA_character_, x = table_meenakumari$Year)
-table_meenakumari$Film <- gsub(pattern = '^$', replacement = NA_character_, x = table_meenakumari$Film)
-table_meenakumari$Role <- gsub(pattern = '^$', replacement = NA_character_, x = table_meenakumari$Role)
-
 table_meenakumari$Year <- str_trim(string = table_meenakumari$Year)
+
+# clean text in column-2
+table_meenakumari$Film <- gsub(pattern = '^$', replacement = NA_character_, x = table_meenakumari$Film)
 table_meenakumari$Film <- str_trim(string = table_meenakumari$Film)
+
+# clean text in column-3
+table_meenakumari$Role <- gsub(pattern = '^$', replacement = NA_character_, x = table_meenakumari$Role)
 table_meenakumari$Role <- str_trim(string = table_meenakumari$Role)
 
 write.csv(x = table_meenakumari, file = "meena_kumari.csv")
