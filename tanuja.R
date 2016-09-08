@@ -21,10 +21,10 @@ text_tanuja <- as.data.frame(text_tanuja)
   # convert `text_tanuja` `list` into `data.frame`
 
 text_tanuja[2] <- NA
-  # Initialize 2nd column of `text.tanuja`
+  # Initialize 2nd column of `text_tanuja`
 
 names(text_tanuja) <- c("Year", "Film")
-  # rename columns of `text.tanuja`
+  # rename columns of `text_tanuja`
 
 text_tanuja$Film <- text_tanuja$Year
   # copy column-1 data to column-2
