@@ -18,7 +18,7 @@ table_meenakumari <- as.data.frame(table_meenakumari)
   # convert `table_meenakumari` `list` into `data.frame`
 
 names(table_meenakumari) <- c("Year", "Film", "Role", "Notes")
-  # rename columns of `text.nargis`
+  # rename columns of `table_meenakumari`
 
 table_meenakumari <- select(.data = table_meenakumari, (Year:Role))
 
