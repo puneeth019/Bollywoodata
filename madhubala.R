@@ -1,6 +1,7 @@
 # Scrape Bollywood Actress data from wiki
-library(rvest) # Load `XML` package
-library(dplyr) # Load `dplyr` pacakge
+library(rvest)    # Load `XML` package
+library(dplyr)    # Load `dplyr` pacakge
+library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/")
 # Set Working directory
@@ -13,19 +14,20 @@ table_madhubala <- file_url %>%
   html_table(fill = TRUE, trim = TRUE, header = TRUE)
 
 table_madhubala <- table_madhubala[[1]]
-  # Convert `table_madhubala` from `list` into `data.frame`
+  # convert `table_madhubala` from `list` into `data.frame`
 
-names(table_madhubala) <- c("Year", "Film", "Director", "Other_notes")
+names(table_madhubala) <- c("Year", "Film", "Director", "Notes")
   # rename columns
-table_madhubala <- select(table_madhubala, -Other_notes)
-  # remove unnecessary columns
 
-# Clean text
-table_madhubala$Year <- ifelse(table_madhubala$Year %in% c(''), NA_character_, table_madhubala$Year)
-table_madhubala$Film <- ifelse(table_madhubala$Film %in% c(''), NA_character_, table_madhubala$Film)
-table_madhubala$Director <- ifelse(table_madhubala$Director %in% c('', "-"), NA_character_, table_madhubala$Director)
+# clean text in column-2
+table_madhubala$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = table_madhubala$Film)
+table_madhubala$Film <- str_trim(string = table_madhubala$Film)
 
-table_madhubala$Film <- gsub(pattern = '[(0-9)+ | \\(+ | \\)+ | \'$]', replacement = '', table_madhubala$Film)
-  # Cleaning text using `regular expressions`
+# clean text in column-3
+table_madhubala$Director <- str_trim(string = table_madhubala$Director)
+
+# clean text in column-4
+table_madhubala$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_madhubala$Notes)
+table_madhubala$Notes <- str_trim(string = table_madhubala$Notes)
 
 write.csv(x =  table_madhubala, file = "madhubala.csv")
