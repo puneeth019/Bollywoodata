@@ -1,7 +1,7 @@
 # Scrape Bollywood Actress data from wiki
-library(rvest) # Load `XML` package
-library(dplyr) # Load `dplyr` package
-library(stringr) # Load `stringr` package
+library(rvest)    # Load `XML` package
+library(dplyr)    # Load `dplyr` package
+library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/")
 # Set Working directory
@@ -13,7 +13,7 @@ text_ashaparekh <- file_url %>%
   html_nodes(xpath='//*[@id="mw-content-text"]/ul[1]') %>%
   html_text(trim = T)
 
-# text cleaning
+# clean text
 text_ashaparekh <- str_split(string = text_ashaparekh, pattern = "\n")
 
 text_ashaparekh <- text_ashaparekh[[1]]
@@ -29,11 +29,11 @@ names(text_ashaparekh) <- c("Year", "Film")
 text_ashaparekh$Film <- text_ashaparekh$Year
   # copy column-1 data to column-2
 
-# clean text to get 1st column
+# clean text in column-1
 aa <- text_ashaparekh$Year
 aa <- str_trim(string = aa)
 
-# clean text to get 2nd column
+# clean text in column-2
 text_ashaparekh$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_ashaparekh$Film)
 text_ashaparekh$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_ashaparekh$Film)
 text_ashaparekh$Film <- str_trim(string = text_ashaparekh$Film)
