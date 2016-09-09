@@ -36,14 +36,14 @@ text_malasinha$Acted_with <- text_malasinha$Year
 # copy column-1 data to column-3
 
 # clean text in column-1
-text_malasinha$Film <- gsub(pattern = ".*([0-9]{4}).*", replacement = "\\1", x = text_malasinha$Film)
-text_malasinha$Film <- str_trim(string = text_malasinha$Film)
+text_malasinha$Year <- gsub(pattern = ".*([0-9]{4}).*", replacement = "\\1", x = text_malasinha$Year)
+text_malasinha$Year <- str_trim(string = text_malasinha$Year)
 
 # clean text in column-2
-text_malasinha$Year <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_malasinha$Year)
-text_malasinha$Year <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_malasinha$Year)
-text_malasinha$Year <- gsub(pattern = "(.*)\\'\\'", replacement = "\\1", x = text_malasinha$Year)
-text_malasinha$Year <- str_trim(string = text_malasinha$Year)
+text_malasinha$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_malasinha$Film)
+text_malasinha$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = text_malasinha$Film)
+text_malasinha$Film <- gsub(pattern = "(.*)\\'\\'", replacement = "\\1", x = text_malasinha$Film)
+text_malasinha$Film <- str_trim(string = text_malasinha$Film)
 
 # clean text in column-3
 text_malasinha$Acted_with <- gsub(pattern = ".*\\({1}(.*)", replacement = "\\1", x = text_malasinha$Acted_with)
