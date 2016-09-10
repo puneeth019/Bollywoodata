@@ -21,13 +21,13 @@ text_malasinha <- as.data.frame(text_malasinha)
   # convert `text_malasinha` `list` into `data.frame`
 
 text_malasinha[2] <- NA
-  # Initialize 2nd column of `text.malasinha`
+  # Initialize 2nd column of `text_malasinha`
 
 text_malasinha[3] <- NA
-# Initialize 3rd column of `text.malasinha`
+# Initialize 3rd column of `text_malasinha`
 
 names(text_malasinha) <- c("Year", "Film", "Acted_with")
-  # rename columns of `text.malasinha`
+  # rename columns of `text_malasinha`
 
 text_malasinha$Film <- text_malasinha$Year
   # copy column-1 data to column-2
