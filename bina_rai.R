@@ -21,10 +21,10 @@ text_binarai <- as.data.frame(text_binarai)
   # convert `text_binarai` `list` into `data.frame`
 
 text_binarai[2] <- NA
-  # Initialize 2nd column of `text.binarai`
+  # Initialize 2nd column of `text_binarai`
 
 names(text_binarai) <- c("Year", "Film")
-  # rename columns of `text.binarai`
+  # rename columns of `text_binarai`
 
 text_binarai$Film <- text_binarai$Year
   # copy column-1 data to column-2
