@@ -3,7 +3,7 @@ library(rvest) # Load `XML` package
 library(dplyr) # Load `dplyr` package
 library(stringr) # Load `stringr` package
 
-setwd("~/Documents/DA/Projects/Bollywood_Jewels/")
+setwd("~/Documents/DA/Projects/Bollywood_Jewels/actresses/")
 # Set Working directory
 file_url <- "https://en.wikipedia.org/wiki/Nimmi"
 # Assign the wiki url to `file_url`
