@@ -24,6 +24,6 @@ Year <- file_url %>%
 Year <- str_extract(string = Year, pattern = "[0-9]{4}")
 Year <- str_trim(string = Year)
 
-table_aishwarya  <- data.frame(Year, Film, stringsAsFactors = F)
+table_rajshree  <- data.frame(Year, Film, stringsAsFactors = F)
 
 write.csv(x = table_aishwarya, file = "rajshree.csv")
