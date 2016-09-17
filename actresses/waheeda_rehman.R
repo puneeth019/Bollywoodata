@@ -1,5 +1,5 @@
 # Scrape Bollywood Actress data from wiki
-library(rvest)    # Load `XML` package
+library(rvest)    # Load `rvest` package
 library(dplyr)    # Load `dplyr` pacakge
 library(stringr)  # Load `stringr` package
 
