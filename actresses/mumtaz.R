@@ -17,9 +17,6 @@ table_mumtaz <- file_url %>%
 table_mumtaz <- table_mumtaz[[1]]
   # convert `table_mumtaz` from `list` into `data.frame`
 
-names(table_mumtaz) <- c("Year", "Film", "Role", "Notes")
-  # rename columns
-
 # clean text in column-2
 table_mumtaz$Film <- str_trim(string = table_mumtaz$Film)
 
