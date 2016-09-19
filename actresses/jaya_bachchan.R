@@ -21,9 +21,8 @@ names(table_jayabachchan) <- c("Year", "Film", "Role", "Notes")
   # rename columns
 
 # clean text in column-2
-aa <- table_jayabachchan$Film
-aa <- gsub(pattern = "\\.\\.\\.", replacement = "", x = aa)
-aa <- str_trim(string = aa)
+table_jayabachchan$Film <- gsub(pattern = "\\.\\.\\.", replacement = "", x = table_jayabachchan$Film)
+table_jayabachchan$Film <- str_trim(string = table_jayabachchan$Film)
 
 # clean text in column-3
 table_jayabachchan$Role <- gsub(pattern = "^$", replacement = NA_character_, x = table_jayabachchan$Role)
