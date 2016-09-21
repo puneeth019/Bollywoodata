@@ -1,0 +1,186 @@
+```
+> table_rekha
+    Year                              Film                                 Role                                              Notes
+1   1966                    Rangula Ratnam                                 <NA>                           Child actressTelugu film
+2   1969 Operation Jackpot Nalli C.I.D 999                                 <NA>                                       Kannada film
+3   1970                      Sawan Bhadon                               Chanda                                               <NA>
+4   1970                        Amma Kosam                                 Gita                                        Telugu film
+5   1971                    Saaz Aur Sanam                                 <NA>                                               <NA>
+6   1971                Haseenon Ka Devata                       Sunita/Chabili                                               <NA>
+7   1971                             Elaan                    Mala Mehta / Mary                                               <NA>
+8   1971                  Dost Aur Dushman                   Special Appearance                                               <NA>
+9   1972                    Zameen Aasmaan                              Kalpana                                               <NA>
+10  1972                             Sazaa                   Special Appearance                                               <NA>
+11  1972                     Gora Aur Kala                            Phoolwati                                               <NA>
+12  1972        Gaon Hamara Shaher Tumhara                       Parvati (Paro)                                               <NA>
+13  1972                        Ek Bechara                              Kavitha                                               <NA>
+14  1972                           Do Yaar                                 <NA>                                               <NA>
+15  1972                      Double Cross                                Rekha                                               <NA>
+16  1972               Raampur Ka Lakshman                      Rekha Choudhury                                               <NA>
+17  1973                           Mehmaan                               Sheela                                               <NA>
+18  1973                       Khoon Khoon                                 <NA>                                               <NA>
+19  1973                            Keemat                                Sudha                                               <NA>
+20  1973                        Kashmakash                                 <NA>                                               <NA>
+21  1973                  Kahani Kismat Ki                                Rekha                                               <NA>
+22  1973                            Dharma                      Mrs. Asha Singh                                               <NA>
+23  1973                      Barkha Bahar                                 <NA>                                               <NA>
+24  1973                        Anokhi Ada                          Neeta Gupta                                               <NA>
+25  1973                      Namak Haraam                               Shyama                                               <NA>
+26  1974                    Woh Main Nahin                               Anjali                                               <NA>
+27  1974      Pran Jaye Par Vachan Na Jaye                      Janniya/Sheetal                                               <NA>
+28  1974                             Hawas                                 <NA>             Guest appearance in song Aao Yaaro Gao
+29  1974                    Duniya Ka Mela                                 <NA>                                               <NA>
+30  1974                        Do Aankhen                                 <NA>                                               <NA>
+31  1975                             Zorro                      Rajkumari Rekha                                               <NA>
+32  1975            Kahte Hain Mujhko Raja                                 Rina                                               <NA>
+33  1975                         Dafaa 302                                 <NA>                                               <NA>
+34  1975                         Dharmatma                                  Anu                                               <NA>
+35  1975                          Aakraman                              Sheetal                                               <NA>
+36  1975                      Dharam Karam                              Basanti                                               <NA>
+37  1976                            Suntan                               Sarita                                               <NA>
+38  1976                           Khalifa                                Rekha                                               <NA>
+39  1976                           Kabeela                               Shobha                                               <NA>
+40  1976                        Do Anjaane                Rekha Roy/Sunita Devi                                               <NA>
+41  1976                   Aaj Ka Mahaatma                                 Mala                                               <NA>
+42  1976                             Nagin                               Sunita                                               <NA>
+43  1977                Saal Solvan Chadya                  Wedding entertainer                                               <NA>
+44  1977                       Ram Bharose                                Kiran                                               <NA>
+45  1977                      Kachcha Chor                                 <NA>                                               <NA>
+46  1977                 Farishta Ya Qatil                                 <NA>                                               <NA>
+47  1977                      Ek Hi Raasta                                 <NA>                                               <NA>
+48  1977                           Dildaar                                 Lata                                               <NA>
+49  1977                Chakkar Pe Chakkar                         Shila Sahini                                               <NA>
+50  1977                             Alaap               Radha Kumari (Radhiya)                                               <NA>
+51  1977                     Aap Ki Khatir                               Sarita                                               <NA>
+52  1977                     Immaan Dharam                                Durga                                               <NA>
+53  1977                      Khoon Pasina                               Chanda                                               <NA>
+54  1977             Palkon Ki Chhaon Mein                               Dancer                                   Guest Appearance
+55  1978                    Saawan Ke Geet                                 <NA>                                               <NA>
+56  1978                         Ram Kasam                                 <NA>                                               <NA>
+57  1978                         Rahu Ketu                                Tulsi                                               <NA>
+58  1978                          Parmatma                                Deepa                                               <NA>
+59  1978                          Muqaddar                                 <NA>                                               <NA>
+60  1978                         Karmayogi                                Rekha                                               <NA>
+61  1978                       Bhola Bhala                               Champa                                               <NA>
+62  1978                       Aakhri Daku                                 <NA>                                               <NA>
+63  1978                 Ganga Ki Saugandh                              Dhaniya                                               <NA>
+64  1978                              Ghar                        Aarti Chandra            Nomination, Filmfare Best Actress Award
+65  1978                       Kasme Vaade                               Dancer                                   Guest Appearance
+66  1978                        Do Musafir                                Bijli                                               <NA>
+67  1978                    Dil Aur Deewar                                 <NA>                                               <NA>
+68  1978              Muqaddar Ka Sikander                             Zohrabai Nomination, Filmfare Best Supporting Actress Award
+69  1979                           Muqabla                       Qawwali singer                                               <NA>
+70  1979                     Mr. Natwarlal                               Shanno                                               <NA>
+71  1979                     Jaani Dushman                               Champa                                               <NA>
+72  1979                      Prem Bandhan                                Mahua                                               <NA>
+73  1979                          Kartavya                                 Nita                                               <NA>
+74  1979                            Suhaag                              Basanti                                               <NA>
+75  1979                       Do Shikaari                               Sunita                                               <NA>
+76  1979                            Ahinsa                                Radha                                               <NA>
+77  1979                          Gol Maal                                 <NA>                         Guest Appearance (herself)
+78  1979                        Naya Bakra                       Qawwali singer                                   Guest Appearance
+79  1980                        Ram Balram                               Shobha                                               <NA>
+80  1980                Maang Bharo Sajana                                Radha                                               <NA>
+81  1980                        Khubsoorat                          Manju Dayal                Winner, Filmfare Best Actress Award
+82  1980                            Judaai           Gauri Singh/Gauri S. Verma            Nomination, Filmfare Best Actress Award
+83  1980                        Kali Ghata                         Rekha/Rashmi                                        Double role
+84  1980                  Jyoti Bane Jwala                            Courtesan                                 Special appearance
+85  1980                         Jal Mahal        Namita / Gayatri Devi / Rekha                                               <NA>
+86  1980                         Agreement                          Mala Mathur                                               <NA>
+87  1980                            Neeyat                                Rekha                                               <NA>
+88  1980                           Aanchal                                Tulsi                                               <NA>
+89  1981                        Umrao Jaan                    Amiran/Umrao Jaan       Winner, National Film Award for Best Actress
+90  1981                  Saajan Ki Saheli                     Moon-Moon Dhawan                                               <NA>
+91  1981                  Chehre Pe Chehra                                Daisy                                               <NA>
+92  1981                            Kalyug                              Supriya                                               <NA>
+93  1981                       Mangalsutra                    Gayatri B. Prasad                                               <NA>
+94  1981                   Khoon Aur Paani                               Champa                                               <NA>
+95  1981                             Daasi                                 Tara                                               <NA>
+96  1981                           Silsila                              Chandni                                               <NA>
+97  1981                           Baseraa               Purnima Kohli aka Nima                                               <NA>
+98  1981                 Ghungroo Ki Awaaz               Kajal/Kiran Gomes/Rani                                               <NA>
+99  1981                       Ek Hi Bhool                    Sadhana Srivastav                                               <NA>
+100 1981                   Chashme Buddoor                              Herself                                   Cameo appearance
+101 1982                            Vijeta                              Neelima                                               <NA>
+102 1982                Mehndi Rang Layegi                                 <NA>                                               <NA>
+103 1982                            Ghazab                               Jamuna                                               <NA>
+104 1982                     Jeevan Dhaara                  Sangeeta Shrivastav            Nomination, Filmfare Best Actress Award
+105 1982                    Raaste Pyar Ke                                Gauri                                               <NA>
+106 1982                      Apna Bana Lo                            Roopadevi                                               <NA>
+107 1982                     Deedar-E-Yaar                                Husna                                               <NA>
+108 1983                      Prem Tapasya                                 Bela                                               <NA>
+109 1983                           Nishaan                                 Rita                                               <NA>
+110 1983                      Film Hi Film                   Special Appearance                                               <NA>
+111 1983              Mujhe Insaaf Chahiye                           Shakuntala Nomination, Filmfare Best Supporting Actress Award
+112 1983                  Agar Tum Na Hote           Purnima Mehra / Radha Bedi                                               <NA>
+113 1984                  Bindiya Chamkegi                                Radha                                               <NA>
+114 1984               Maati Maangey Khoon                 Shyamlee (Courtesan)                                               <NA>
+115 1984                        Asha Jyoti                                 Asha                                               <NA>
+116 1984                             Baazi                                 Asha                                               <NA>
+117 1984                    Zameen Aasmaan                                 <NA>                                               <NA>
+118 1984                             Utsav                           Vasantsena                                               <NA>
+119 1984                       Jhutha Sach                                 Alka                                               <NA>
+120 1984          Paan Khaye Saiyan Hamaar         Courtesan 'Dil De Be Na Ham'                                               <NA>
+121 1985                Ram Tere Kitne Nam            Mrs. Radha Aloknath Gupta                                               <NA>
+122 1985                            Faasle                                 Maya                                               <NA>
+123 1985                           Jhoothi                    Kalpana Srivastav                                               <NA>
+124 1986                     Sadaa Suhagan                                Laxmi                                               <NA>
+125 1986                           Musafir                                 <NA>                                               <NA>
+126 1986                   Insaaf Ki Awaaz                Inspector Jhansi Rani                                               <NA>
+127 1986                              Jaal            Amita S. Singh / Meenabai                                               <NA>
+128 1986                            Locket                                Shalu                                               <NA>
+129 1986                           Janbaaz                       Cabaret Singer                                   Guest Appearance
+130 1987                      Pyar Ki Jeet                                 Soni                                               <NA>
+131 1987                           Ijaazat                                Sudha                                               <NA>
+132 1987                         Apne Apne                     Sharda R. Kapoor                                               <NA>
+133 1987                            Sansar                        Uma V. Sharma                                               <NA>
+134 1987                   Jaan Hatheli Pe                                 <NA>                                               <NA>
+135 1987                           Khazana                         Anita Mathur                                               <NA>
+136 1988                    Soorma Bhopali                          Drunk Woman                                 Special Appearance
+137 1988                 Khoon Bhari Maang                    Aarti Verma/Jyoti                Winner, Filmfare Best Actress Award
+138 1988                    Ek Naya Rishta                         Aarti Saxena                                               <NA>
+139 1988                   Biwi Ho To Aisi                          Shalu Mehra                                               <NA>
+140 1989                   Kasam Suhaag Ki                                 <NA>                                               <NA>
+141 1989                             Clerk                     Mrs. Sneh Kapoor                                               <NA>
+142 1989                    Souten Ki Beti                       Radha S. Verma                                               <NA>
+143 1989                            Ladaai                     Shakuntala Verma                                               <NA>
+144 1989                      Bhrashtachar                              Bhavani                                               <NA>
+145 1989                          Bahurani              Madhuri/Malti Chaudhary                                               <NA>
+146 1990                         Sheshnaag                               Champa                                               <NA>
+147 1990           Mera Pati Sirf Mera Hai                  Sharda Dayal Sharma                                               <NA>
+148 1990               Azaad Desh Ke Gulam                      Bharti Bhandari                                               <NA>
+149 1990                      Amiri Garibi                                 Sona                                               <NA>
+150 1990                      Aag Ka Darya                                 <NA>                                               <NA>
+151 1991               Yeh Aag Kab Bujhegi                                 <NA>                                               <NA>
+152 1991                Phool Bane Angaray                        Namrata Singh            Nomination, Filmfare Best Actress Award
+153 1992                    Insaaf Ki Devi                     Sadhana S. Verma                                               <NA>
+154 1993                        Geetanjali       Anjali Mehra/Geeta S. Bhardwaj                                               <NA>
+155 1994                           Madam X                       Madam X / Sonu                                        Double role
+156 1995                           Nishana                                 <NA>                                               <NA>
+157 1995                     Ab Insaf Hoga                     Jankidevi Prasad                                               <NA>
+158 1996                 Aurat Aurat Aurat                          Sita Vajpai                                               <NA>
+159 1996             Khiladiyon Ka Khiladi                                 Maya     Winner, Filmfare Best Supporting Actress Award
+160 1996        Kama Sutra: A Tale of Love Rasa Devi, teacher of the Kama Sutra                                               <NA>
+161 1997   Aastha: In the Prison of Spring                                Mansi                                               <NA>
+162 1997                             Udaan                         Varsha Sahay                                               <NA>
+163 1998                              Qila                               Yamini                                               <NA>
+164 1999                            Mother                       Asha Britannia                                               <NA>
+165 2000                           Bulandi                              Lakshmi                                               <NA>
+166 2001                          Zubeidaa                Maharani Mandira Devi                                               <NA>
+167 2001                            Censor Ms. Shrivastav (Censor Board Member)                                               <NA>
+168 2001        Mujhe Meri Biwi Se Bachaao                        Kamini Mathur                                               <NA>
+169 2001                             Lajja                           Ramdulaari Nomination, Filmfare Best Supporting Actress Award
+170 2002                  Dil Hai Tumhaara                             Saritaji                                               <NA>
+171 2003                             Bhoot                               Sarita                                               <NA>
+172 2003                      Koi Mil Gaya                          Sonia Mehra Nomination, Filmfare Best Supporting Actress Award
+173 2005             Bachke Rehna\nRe Baba               Rukmini/Richa/Gurpreet                                               <NA>
+174 2005                         Parineeta                  Moulin Rouge singer                                               <NA>
+175 2006             Kudiyon Ka Hai Zamana                               Mayuri                                               <NA>
+176 2006                            Krrish                       Sonia S. Mehra Nomination, Filmfare Best Supporting Actress Award
+177 2007                             Yatra                             Lajwanti                                               <NA>
+178 2007                      Om Shanti Om                     As Rekha herself                                               <NA>
+179 2010                          Sadiyaan                                Amrit                                               <NA>
+180 2013                          Krrish 3                          Sonia Mehra                                               <NA>
+181 2014                        Super Nani                        Bharti Bhatia                                               <NA>
+182 2015                         Shamitabh                              Herself                                               <NA>
+```
