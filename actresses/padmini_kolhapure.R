@@ -22,9 +22,11 @@ table_padmini$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = table
 table_padmini$Film <- str_trim(string = table_padmini$Film)
 
 # clean text in column-3
-table_padmini$Director <- str_trim(string = table_padmini$Director)
+table_padmini$Role <- gsub(pattern = "^$", replacement = NA_character_, x = table_padmini$Role)
+table_padmini$Role <- str_trim(string = table_padmini$Role)
 
 # clean text in column-4
+table_padmini$Notes <- gsub(pattern = "(.*)\\[.*", replacement = "\\1", x = table_padmini$Notes)
 table_padmini$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_padmini$Notes)
 table_padmini$Notes <- str_trim(string = table_padmini$Notes)
 
