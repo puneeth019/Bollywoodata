@@ -6,7 +6,7 @@ library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/actresses/")
 # Set Working directory
-file_url <- "https://en.wikipedia.org/wiki/Padmini_Kolhapurei"
+file_url <- "https://en.wikipedia.org/wiki/Padmini_Kolhapure"
 # Assign the wiki url to `file_url`
 
 table_padmini <- file_url %>%
