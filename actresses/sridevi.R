@@ -160,7 +160,11 @@ table_sridevi_hindi$Source <- str_trim(string = table_sridevi_hindi$Source)
 # Assign language in column-5
 table_sridevi_hindi$Language <- "Hindi"
 
+# Combine data
 table_sridevi <-  rbind(table_sridevi_tamil, table_sridevi_malayalam, table_sridevi_telugu, 
                         table_sridevi_kannada, table_sridevi_hindi)
+
+# Remove `Source` column
+table_sridevi <- select(table_sridevi, -Source)
 
 write.csv(x =  table_sridevi, file = "sridevi.csv")
