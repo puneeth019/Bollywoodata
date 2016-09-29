@@ -6,29 +6,36 @@ library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/actresses/")
 # Set Working directory
-file_url <- "https://en.wikipedia.org/wiki/Madhubala"
+file_url <- ''
 # Assign the wiki url to `file_url`
 
-table_madhubala <- file_url %>%
+table_meenakshi <- file_url %>%
   read_html() %>%
-  html_nodes(xpath='//*[@id="mw-content-text"]/table[2]') %>%
+  html_nodes(xpath='') %>%
   html_table(fill = TRUE, trim = TRUE, header = TRUE)
 
-table_madhubala <- table_madhubala[[1]]
-  # convert `table_madhubala` from `list` into `data.frame`
+table_meenakshi <- table_meenakshi[[1]]
+  # convert `table_meenakshi` from `list` into `data.frame`
 
-names(table_madhubala) <- c("Year", "Film", "Director", "Notes")
-  # rename columns
+names(table_meenakshi) <- c("Year", "Film", "Role", "Notes")
+# rename columns
+
+# clean text in column-1
+table_meenakshi$Year <- gsub(pattern = "^$", replacement = NA_character_, x = table_meenakshi$Year)
+table_meenakshi$Year <- str_trim(string = table_meenakshi$Year)
 
 # clean text in column-2
-table_madhubala$Film <- gsub(pattern = "(.*)\\(.*", replacement = "\\1", x = table_madhubala$Film)
-table_madhubala$Film <- str_trim(string = table_madhubala$Film)
+table_meenakshi$Film <- gsub(pattern = "^$", replacement = NA_character_, x = table_meenakshi$Film)
+table_meenakshi$Film <- str_trim(string = table_meenakshi$Film)
 
 # clean text in column-3
-table_madhubala$Director <- str_trim(string = table_madhubala$Director)
+table_meenakshi$Role <- gsub(pattern = "^$", replacement = NA_character_, x = table_meenakshi$Role)
+table_meenakshi$Role <- str_trim(string = table_meenakshi$Role)
 
 # clean text in column-4
-table_madhubala$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_madhubala$Notes)
-table_madhubala$Notes <- str_trim(string = table_madhubala$Notes)
+table_meenakshi$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_meenakshi$Notes)
+table_meenakshi$Notes <- str_trim(string = table_meenakshi$Notes)
 
-write.csv(x =  table_madhubala, file = "madhubala.csv")
+table_meenakshi <- select(table_meenakshi, Year, Film, Role, Notes)
+
+write.csv(x =  table_meenakshi, file = "meenakshi.csv")
