@@ -40,6 +40,6 @@ table_divyabharti$Language <- str_trim(string = table_divyabharti$Language)
 table_divyabharti$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_divyabharti$Notes)
 table_divyabharti$Notes <- str_trim(string = table_divyabharti$Notes)
 
-table_divyabharti <- select(table_divyabharti, Year, Film, Role, Notes)
+table_divyabharti <- select(table_divyabharti, Year, Film, Role, Notes, Language)
 
 write.csv(x =  table_divyabharti, file = "divya_bharti.csv")
