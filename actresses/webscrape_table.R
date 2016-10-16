@@ -21,7 +21,7 @@ names(table_meenakshi) <- c("Year", "Film", "Role", "Notes")
 # rename columns
 
 # clean text in column-1
-table_meenakshi$Year <- gsub(pattern = "^$", replacement = NA_character_, x = table_meenakshi$Year)
+table_meenakshi$Year <- gsub(pattern = "^$", replacement = NA_integer_, x = table_meenakshi$Year)
 table_meenakshi$Year <- str_trim(string = table_meenakshi$Year)
 
 # clean text in column-2
