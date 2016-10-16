@@ -36,6 +36,7 @@ table_kajol$Role <- str_trim(string = table_kajol$Role)
 
 # clean text in column-4
 table_kajol$Director <- gsub(pattern = "^$", replacement = NA_character_, x = table_kajol$Director)
+table_kajol$Director <- gsub(pattern = ".*!(.*)", replacement = "\\1", x = table_kajol$Director)
 table_kajol$Director <- str_trim(string = table_kajol$Director)
 
 # clean text in column-5
@@ -46,6 +47,6 @@ table_kajol$Genre <- str_trim(string = table_kajol$Genre)
 table_kajol$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_kajol$Notes)
 table_kajol$Notes <- str_trim(string = table_kajol$Notes)
 
-table_kajol <- select(table_kajol, Year, Film, Role, Notes)
+table_kajol <- select(table_kajol, Year, Film, Role, Notes, Director, Genre)
 
 write.csv(x =  table_kajol, file = "kajol.csv")
