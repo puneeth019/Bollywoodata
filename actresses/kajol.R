@@ -22,6 +22,8 @@ names(table_kajol) <- c("Film", "Year", "Role", "Director", "Genre", "Notes")
 
 # clean text in column-1
 table_kajol$Film <- gsub(pattern = "^$", replacement = NA_character_, x = table_kajol$Film)
+table_kajol$Film <- gsub(pattern = "(.*)\\.\\.\\.", replacement = "\\1", x = table_kajol$Film)
+
 table_kajol$Film <- str_trim(string = table_kajol$Film)
 
 # clean text in column-2
