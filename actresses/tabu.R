@@ -23,10 +23,12 @@ names(table_tabu) <- c("Film", "Year", "Role", "Language", "Director", "Notes", 
 # clean text in column-1
 table_tabu$Film <- gsub(pattern = "^$", replacement = NA_character_, x = table_tabu$Film)
 table_tabu$Film <- gsub(pattern = "(.*)!.*", replacement = "\\1", x = table_tabu$Film)
+table_tabu$Film <- gsub(pattern = "(.*)\\.\\.\\.", replacement = "\\1", x = table_tabu$Film)
 table_tabu$Film <- str_trim(string = table_tabu$Film)
 
 # clean text in column-2
 table_tabu$Year <- gsub(pattern = "^$", replacement = NA_integer_, x = table_tabu$Year)
+table_tabu$Year <- gsub(pattern = "(.*)!.*", replacement = "\\1", x = table_tabu$Year)
 table_tabu$Year <- str_trim(string = table_tabu$Year)
 
 # clean text in column-3
