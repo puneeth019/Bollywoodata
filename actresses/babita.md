@@ -1,23 +1,42 @@
-```
-> table_babita
-   Year                    Film              Role Notes
-1  1966                Dus Lakh              Rita    NA
-2  1967                    Raaz              Asha    NA
-3  1967                    Farz            Sunita    NA
-4  1968                  Kismat              Roma    NA
-5  1968     Haseena Maan Jayegi  Archana 'Archie'    NA
-6  1968                   Aulad            Bharti    NA
-7  1969   Tumse Achcha Kaun Hai        Sapna Nath    NA
-8  1969 Ek Shrimaan Ek Shrimati Deepali Lakhanpal    NA
-9  1969                    Doli              Asha    NA
-10 1969              Anmol Moti              <NA>    NA
-11 1969                 Anjaana   Rachna Malhotra    NA
-12 1970     Kab Kyoon Aur Kahan       Asha Prasad    NA
-13 1970                 Pehchan            Barkha    NA
-14 1971         Kal Aaj Aur Kal     Monica 'Mona'    NA
-15 1971            Bikhare Moti              <NA>    NA
-16 1971                Banphool            Gulabi    NA
-17 1972                    Jeet            Kohili    NA
-18 1972     Ek Hasina Do Diwane             Neeta    NA
-19 1973            Sone Ke Hath              <NA>    NA
-```
+# Sample script to scrape table from webpage
+
+library(rvest)    # Load `rvest` package
+library(dplyr)    # Load `dplyr` pacakge
+library(stringr)  # Load `stringr` package
+
+setwd("~/Documents/DA/Projects/Project1/actresses/")
+# Set Working directory
+file_url <- 'https://en.wikipedia.org/wiki/Babita'
+# Assign the wiki url to `file_url`
+
+table_babita <- file_url %>%
+  read_html() %>%
+  html_nodes(xpath='//*[@id="mw-content-text"]/table[2]') %>%
+  html_table(fill = TRUE, trim = TRUE, header = TRUE)
+
+table_babita <- table_babita[[1]]
+  # convert `table_babita` from `list` into `data.frame`
+
+names(table_babita) <- c("Year", "Film", "Role", "Notes")
+# rename columns
+
+# clean text in column-1
+table_babita$Year <- gsub(pattern = "^$", replacement = NA_integer_, x = table_babita$Year)
+table_babita$Year <- str_trim(string = table_babita$Year)
+
+# clean text in column-2
+table_babita$Film <- gsub(pattern = "^$", replacement = NA_character_, x = table_babita$Film)
+table_babita$Film <- str_trim(string = table_babita$Film)
+
+# clean text in column-3
+table_babita$Role <- gsub(pattern = "^$", replacement = NA_character_, x = table_babita$Role)
+table_babita$Role <- str_trim(string = table_babita$Role)
+
+# clean text in column-4
+table_babita$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_babita$Notes)
+table_babita$Notes <- str_trim(string = table_babita$Notes)
+
+table_babita <- select(table_babita, Year, Film, Role, Notes)
+table_babita <- arrange(table_babita, Year, Film)
+
+write.csv(x =  table_babita, file = "babita.csv")
