@@ -37,5 +37,6 @@ table_mandakini$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = t
 table_mandakini$Notes <- str_trim(string = table_mandakini$Notes)
 
 table_mandakini <- select(table_mandakini, Year, Film, Role, Notes)
+table_mandakini <- arrange(table_mandakini, Year, Film)
 
 write.csv(x =  table_mandakini, file = "mandakini.csv")
