@@ -25,6 +25,7 @@ Film <- file_url %>%
 Film <- gsub(pattern = "^$", replacement = NA_character_, x = Film)
 Film <- str_trim(string = Film)
 
-table_aishwarya  <- data.frame(Year, Film, stringsAsFactors = F)
+table_aishwarya <- data.frame(Year, Film, stringsAsFactors = F)
+table_aishwarya <- arrange(table_aishwarya, Year)
 
 write.csv(x = table_aishwarya, file = "aishwarya.csv")
