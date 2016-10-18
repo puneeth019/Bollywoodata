@@ -27,4 +27,4 @@ Film <- str_trim(string = Film)
 
 table_mailini  <- data.frame(Year, Film, stringsAsFactors = F)
 
-write.csv(x = table_mailini, file = "hema_mailini.csv")
+write.csv(x = table_mailini, file = "hema_malini.csv")
