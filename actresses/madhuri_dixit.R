@@ -34,14 +34,17 @@ table_madhuri$Year <- str_trim(string = table_madhuri$Year)
 # clean text in column-3
 table_madhuri$Role <- gsub(pattern = "!", replacement = "", x = table_madhuri$Role)
 table_madhuri$Role <- gsub(pattern = "^$", replacement = NA_character_, x = table_madhuri$Role)
+table_madhuri$Role <- gsub(pattern = "[^ ]+ (.*)", replacement = "\\1", x = table_madhuri$Role)
 table_madhuri$Role <- str_trim(string = table_madhuri$Role)
 
 # clean text in column-4
 table_madhuri$Director <- gsub(pattern = "!", replacement = "", x = table_madhuri$Director)
 table_madhuri$Director <- gsub(pattern = "^$", replacement = NA_character_, x = table_madhuri$Director)
+table_madhuri$Director <- gsub(pattern = "[^ ]+ (.*)", replacement = "\\1", x = table_madhuri$Director)
+table_madhuri$Director <- gsub(pattern = "(.*)\\[.*", replacement = "\\1", x = table_madhuri$Director)
 table_madhuri$Director <- str_trim(string = table_madhuri$Director)
 
-# clean text in column-5.
+# clean text in column-5
 table_madhuri$Notes <- gsub(pattern = "!", replacement = "", x = table_madhuri$Notes)
 table_madhuri$Notes <- gsub(pattern = "^$", replacement = NA_character_, x = table_madhuri$Notes)
 table_madhuri$Notes <- str_trim(string = table_madhuri$Notes)
