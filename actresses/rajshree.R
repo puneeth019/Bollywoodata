@@ -26,4 +26,4 @@ Year <- str_trim(string = Year)
 
 table_rajshree  <- data.frame(Year, Film, stringsAsFactors = F)
 
-write.csv(x = table_aishwarya, file = "rajshree.csv")
+write.csv(x = table_rajshree, file = "rajshree.csv")
