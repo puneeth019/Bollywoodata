@@ -6,12 +6,12 @@ library(stringr)  # Load `stringr` package
 
 setwd("~/Documents/DA/Projects/Project1/actresses/")
 # Set Working directory
-file_url <- 'https://en.wikipedia.org/wiki/Mandakini_(actress)'
+file_url <- ''
 # Assign the wiki url to `file_url`
 
 table_mandakini <- file_url %>%
   read_html() %>%
-  html_nodes(xpath='//*[@id="mw-content-text"]/table[2]') %>%
+  html_nodes(xpath='') %>%
   html_table(fill = TRUE, trim = TRUE, header = TRUE)
 
 table_mandakini <- table_mandakini[[1]]
