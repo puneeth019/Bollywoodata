@@ -4,7 +4,7 @@ library(rvest)    # Load `rvest` package
 library(dplyr)    # Load `dplyr` pacakge
 library(stringr)  # Load `stringr` package
 
-setwd("C:/Users/lc067/Documents/DA/Projects/Project1/actresses/")
+setwd("~/Documents/DA/Projects/Project1/actresses/")
 # Set Working directory
 file_url <- 'https://en.wikipedia.org/wiki/Shilpa_Shirodkar'
 # Assign the wiki url to `file_url`
