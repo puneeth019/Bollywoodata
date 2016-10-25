@@ -4,9 +4,9 @@ library(rvest)    # Load `rvest` package
 library(dplyr)    # Load `dplyr` pacakge
 library(stringr)  # Load `stringr` package
 
-setwd("C:/Users/lc067/Documents/DA/Projects/Project1/actresses/")
+setwd("~/Documents/DA/Projects/Project1/actresses/")
 # Set Working directory
-file_url <- 'C:/Users/lc067/Documents/DA/projects/Project1/actresses/Sonali Bendre - Wikipedia.html'
+file_url <- 'https://en.wikipedia.org/wiki/Sonali_Bendre'
 # Assign the wiki url to `file_url`
 
 table_sonalibendre <- file_url %>%
