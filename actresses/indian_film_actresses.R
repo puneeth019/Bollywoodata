@@ -1,10 +1,7 @@
 # Scrape Bollywood Actress names from wiki
-library(XML)    # Load `XML` package
-library(dplyr)  # Load `dplyr` package
 library(rvest)  # Load `rvest` package
-library(stringr)# Load `stringr` package
 
-WorkDir <- 'C:/DA/Projects/Bollywoodata/actresses/'
+WorkDir <- '~/DA/Projects/Bollywoodata/actresses/'
 setwd(dir = WorkDir)
 
 file_url <- 'https://en.wikipedia.org/wiki/List_of_Indian_film_actresses'
