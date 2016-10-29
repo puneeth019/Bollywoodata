@@ -1,8 +1,5 @@
-# Scrape Bollywood Actress names from wiki
-library(XML)    # Load `XML` package
-library(dplyr)  # Load `dplyr` package
+# Scrape Bollywood Actor names from wiki
 library(rvest)  # Load `rvest` package
-library(stringr)# Load `stringr` package
 
 WorkDir <- "~/DA/Projects/Bollywoodata/actors/"
 setwd(dir = WorkDir)
