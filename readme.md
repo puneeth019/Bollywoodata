@@ -1,1 +1,1 @@
-Plan is to get complete bollywood data!
+Plan is to get as much as data related to bollywood movies!
