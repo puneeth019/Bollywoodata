@@ -4,7 +4,7 @@ library(dplyr)  # Load `dplyr` package
 library(rvest)  # Load `rvest` package
 library(stringr)# Load `stringr` package
 
-WorkDir <- "C:/DA/Projects/Bollywoodata/actors/"
+WorkDir <- "~/DA/Projects/Bollywoodata/actors/"
 setwd(dir = WorkDir)
 
 file_url <- "https://en.wikipedia.org/wiki/List_of_Indian_film_actors"
