@@ -16,7 +16,7 @@ links <- file_url %>%
   read_html() %>%
   html_nodes(css = '.column-width a') %>%
   html_attr(name = 'href') %>% 
-  lapply(FUN = function(x) paste0("https://en.wikipedia.org/", x)) %>%
+  lapply(FUN = function(x) paste0("https://en.wikipedia.org", x)) %>%
   unlist(use.names = F)
 
 actors <- data.frame(actor_name = names, http_link = links, row.names = NULL, stringsAsFactors = F)
