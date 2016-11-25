@@ -3,10 +3,10 @@ library(rvest)    # Load `rvest` package
 library(dplyr)    # Load `dplyr` package
 library(stringr)  # Load `stringr` pacakge
 
-WorkDir <- "C:/Users/lc067/Documents/DA/projects/Bollywoodata/music_directors/"
+WorkDir <- "~/DA/projects/Bollywoodata/music_directors/"
 setwd(dir = WorkDir)
 
-file_url <- "C:/Users/lc067/Documents/DA/projects/Bollywoodata/music_directors/aa.html"
+file_url <- "https://en.wikipedia.org/wiki/List_of_Indian_film_music_directors"
 # Assign the wiki url to `file_url`
 
 names <- file_url %>%
