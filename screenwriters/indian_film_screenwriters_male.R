@@ -1,12 +1,12 @@
-# Scrape Indian Film `Screenwriter` names from wiki
+# Scrape Indian Film `Male Screenwriter` names from wiki
 library(rvest)    # Load `rvest` package
 library(dplyr)    # Load `dplyr` package
 library(stringr)  # Load `stringr` package
 
-WorkDir <- "C:/Users/lc067/Documents/DA/projects/Bollywoodata/screenwriters/"
+WorkDir <- "~/DA/projects/Bollywoodata/screenwriters/"
 setwd(dir = WorkDir)
 
-file_url <- "C:/Users/lc067/Documents/DA/projects/Bollywoodata/screenwriters/male.html"
+file_url <- "https://en.wikipedia.org/wiki/Category:Indian_male_screenwriters"
 # Assign the wiki url to `file_url`
 
 names <- file_url %>%
