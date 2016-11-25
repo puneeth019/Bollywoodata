@@ -1,4 +1,4 @@
-# Scrape Bollywood Actress names from wiki
+# Scrape Bollywood `Actress` names from wiki
 library(rvest)  # Load `rvest` package
 
 WorkDir <- '~/DA/Projects/Bollywoodata/actresses/'
@@ -19,6 +19,6 @@ links <- file_url %>%
   lapply(FUN = function(x) paste0("https://en.wikipedia.org", x)) %>%
   unlist(use.names = F)
 
-actresses <- data.frame(actresses_name = names, http_link = links, row.names = NULL, stringsAsFactors = F)
+actresses <- data.frame(name = names, http_link = links, row.names = NULL, stringsAsFactors = F)
 
 write.csv(x = actresses, file = 'indian_film_actresses.csv')
